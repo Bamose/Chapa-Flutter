@@ -319,11 +319,11 @@ class ReusableWidget extends StatelessWidget {
         children: [
           Text(
             title,
-            style: Theme.of(context).textTheme.subtitle1,
+
           ),
           Text(
             value.toString(),
-            style: Theme.of(context).textTheme.subtitle2,
+      
           ),
         ],
       ),
